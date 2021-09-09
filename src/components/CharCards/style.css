@@ -1,0 +1,36 @@
+div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+img {
+  height: 130px;
+  width: 130px;
+  background-size: cover;
+}
+
+.card {
+  margin: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  background-color: rgb(26, 238, 6);
+}
+
+.cardTwo {
+  margin: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  background-color: rgb(238, 6, 6);
+}
+
+@media only screen and (min-width: 500px) {
+  div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
